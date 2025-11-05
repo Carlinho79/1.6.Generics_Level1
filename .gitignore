@@ -1,30 +1,59 @@
-### IntelliJ IDEA ###
+# ===================================
+#  Java + IntelliJ + macOS .gitignore
+# ===================================
+
+# ---> Java
+*.class
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Error logs generats per la JVM
+hs_err_pid*
+replay_pid*
+
+# ---> IntelliJ IDEA
+.idea/
+*.iml
+*.iws
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+.idea_modules/
+*.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Fitxers d'usuari específics
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf/
+.idea/httpRequests/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Caches i configuracions temporals
+.idea/caches/
+.idea/assetWizardSettings.xml
+.idea/libraries/
 
-### VS Code ###
-.vscode/
+# Carpetes de compilació
+/build/
+target/
 
-### Mac OS ###
+# ---> macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# ---> Logs i temporals
+logs/
+*.log
+*.swp
+*~
+*#
