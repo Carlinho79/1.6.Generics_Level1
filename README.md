@@ -11,8 +11,7 @@ El projecte conté **dues parts (nivell 1)** que demostren l'ús de genèrics en
 ---
 
 ## 📂 Estructura del projecte
-
-\`\`\`
+```bash
 1.6.Generics/
 │
 ├── src/
@@ -32,7 +31,7 @@ El projecte conté **dues parts (nivell 1)** que demostren l'ús de genèrics en
 │   │
 │   └── README.md
 └── out/ (directori de sortida per a fitxers compilats)
-\`\`\`
+````
 
 ---
 
