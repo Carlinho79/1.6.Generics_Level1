@@ -47,7 +47,7 @@ Crear una classe que emmagatzemi tres objectes del **mateix tipus** (en aquest c
 - \`Main.java\` (per provar la classe)
 
 **Execució esperada:**
-\`\`\`
+```txt
 First: Barcelona
 Second: Madrid
 Third: Sevilla
@@ -55,7 +55,7 @@ Third: Sevilla
 First: Madrid
 Second: Sevilla
 Third: Barcelona
-\`\`\`
+```
 
 ---
 
@@ -71,7 +71,7 @@ També es crea una classe \`Persona\` per demostrar l’ús amb objectes persona
 - \`Main.java\`
 
 **Execució esperada:**
-\`\`\`
+```txt
 First: Barcelona
 Second: Madrid
 Third: Sevilla
@@ -88,7 +88,7 @@ First: Persona: John Doe, 30 years old.
 Second: Persona: Jane Smith, 25 years old.
 Third: Persona: Emily Johnson, 28 years old.
 ---------------------
-\`\`\`
+```
 
 ---
 
@@ -97,21 +97,17 @@ Third: Persona: Emily Johnson, 28 years old.
 Assegura’t que estàs dins del directori arrel del projecte (\`1.6.Generics\`).
 
 ### 1️⃣ Compilar els fitxers
-\`\`\`bash
+```bash
 javac -d out src/level1/exercise1/model/*.java src/level1/exercise1/app/Main.java
 javac -d out src/level1/exercise2/model/*.java src/level1/exercise2/app/Main.java
-\`\`\`
+````
 
 ### 2️⃣ Executar cada exercici
 #### Exercici 1:
-\`\`\`bash
-java -cp out level1.exercise1.app.Main
-\`\`\`
+`java -cp out level1.exercise1.app.Main`
 
 #### Exercici 2:
-\`\`\`bash
-java -cp out level1.exercise2.app.Main
-\`\`\`
+`java -cp out level1.exercise2.app.Main`
 
 ---
 
